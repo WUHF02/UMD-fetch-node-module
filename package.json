@@ -1,17 +1,25 @@
 {
-  "name": "umd",
+  "name": "@happyinc/nodefetch",
   "version": "1.0.0",
   "main": "umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Tobias",
+  "license": "MIT",
   "dependencies": {
     "jquery": "^3.4.1",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {},
   "keywords": [],
-  "description": ""
+  "description": "```bash\r     npm i \r ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tobias-E/UMD-fetch-node-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tobias-E/UMD-fetch-node-module/issues"
+  },
+  "homepage": "https://github.com/Tobias-E/UMD-fetch-node-module#readme"
 }
