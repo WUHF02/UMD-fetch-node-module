@@ -8,7 +8,9 @@
 ### Test
 
 ```js
-let myFetch = require("./umd");
+if(typeof exports === "object") {
+    var myFetch = require("@happyinc/nodefetch");
+}
 
 myFetch.init({
     address: "https://reqres.in/api/users?page=2",
