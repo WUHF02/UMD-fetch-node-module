@@ -1,0 +1,22 @@
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 100px double;
+  border-color: orange transparent;
+  border-radius: 50%;
+  animation: animateSpinner 1s infinite linear;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 50%;
+  margin-top: -150px;
+}
+
+@keyframes animateSpinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
